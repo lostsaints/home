@@ -1,0 +1,824 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Saints®</title>
+    <link rel="icon" type="image/x-icon" href="/imagenes/logos/white.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="imagenes/logos/white.png" alt="Lost Saints" class="logo-img">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#">Lookbook</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="language-selector">
+                    <select id="language-switcher">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-split">
+            <div class="hero-image left-image" style="background-image: url('imagenes/otros/modelos1.png')"></div>
+            <div class="hero-image right-image" style="background-image: url('imagenes/otros/xhryz.png')"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="scroll-reveal">NEW DROP</h1>
+            <a href="#products" class="hero-btn scroll-reveal">View Collection</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="section-header">
+            <h2 class="section-title">Full Catalog</h2>
+        </div>
+        
+        <div class="product-grid">
+            <!-- Product 1 with 3D effect and variants -->
+            <div class="product-item scroll-reveal">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/over_black.png" alt="OVER TEE LS" class="main-product-image">
+                        <!-- Hover overlay effect -->
+                        <div class="image-overlay">
+                            <span class="view-text">View details</span>
+                        </div>
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/over_black.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/over_white.png"
+                            style="background-color: #fff"></div>
+                        <div class="color-option" data-image="imagenes/productos/over_cream.png"
+                            style="background-color: #fffdd0"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">T-Shirts</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>OVER TEE LS</h3>
+                    <p class="product-description">Premium long sleeve t-shirt with oversized cut</p>
+                    <p class="price">€29.99 <span class="old-price">€39.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 with 3D hover effect -->
+            <div class="product-item scroll-reveal">
+                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/hoddie_cream_f.png" alt="Oversized Hoodie - Front" class="main-product-image">
+                        <img src="imagenes/productos/hoddie_cream_b.png" alt="Oversized Hoodie - Back" class="secondary-product-image">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Hoodies</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>Oversized Hoodie</h3>
+                    <p class="product-description">Premium hoodie with kangaroo pocket</p>
+                    <p class="price">€54.99</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product-item scroll-reveal">
+                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/funda1_negra.png" alt="ESSENTIAL CASE - Minimalist iPhone Case" class="main-product-image">
+                        <!-- Hover overlay effect -->
+                        <div class="image-overlay">
+                            <span class="view-text">View details</span>
+                        </div>
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/funda1_negra.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/funda1_gris.png"
+                            style="background-color: #a1a1a0"></div>
+                        <div class="color-option" data-image="imagenes/productos/funda1_marron.png"
+                            style="background-color: #5e4235"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Cases</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>ESSENTIAL CASE</h3>
+                    <p class="product-description">Limited edition minimalist phone case.</p>
+                    <p class="price">€9.99 <span class="old-price">€14.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">iPhone X - 16 Pro Max</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">Limited</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/condon1.png" alt="NOIR PROTECTION - Exclusive Pack" class="main-product-image">
+                        <img src="imagenes/productos/condon2.png" alt="NOIR PROTECTION - Product detail" class="secondary-product-image">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Wellness Essentials</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>NOIR PROTECTION</h3>
+                    <p class="product-description">Exclusive LS condoms pack.</p>
+                    <p class="price">€11.99 <span class="old-price">€19.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">12 units - One size</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/hoddie_negra_f.png" alt="" class="main-product-image">
+                        <img src="imagenes/productos/hoddie_negra_b.png" alt="" class="secondary-product-image">
+                    </div>                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Hoodie</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>SNAP SAINTS JK</h3>
+                    <p class="product-description">Oversize hoodie with back embroidery.</p>
+                    <p class="price">€49.99</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL, XXL</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/gorra_black.png" alt="" class="main-product-image">
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/gorra_black.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/gorra_gris.png"
+                            style="background-color: #808080"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Headwear</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>VOID CREST CAP</h3>
+                    <p class="product-description">Minimalist, stylish LS cap.</p>
+                    <p class="price">€14.99 <span class="old-price">€21.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">One Size - Adjustable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-footer">
+            <button class="load-more">View more products</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <div class="about-text scroll-reveal">
+                <h2>Brand Philosophy</h2>
+                <p>Our brand is born from the search for essence in design. Eliminating the superfluous to keep only what's essential: pure forms, defined contrasts, and a palette reduced to black and white.</p>
+                <p>Each garment is conceived as a timeless piece, designed to transcend seasons and trends. We believe in fashion as a lasting expression rather than ephemeral consumption.</p>
+                <p>Minimalism is not just an aesthetic, it's a way to understand design and life.</p>
+            </div>
+            <div class="about-image scroll-reveal">
+                <img src="imagenes/otros/xhryz.png" alt="About the brand">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>The Brand</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Philosophy</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Collections</h3>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Limited Editions</a></li>
+                    <li><a href="#">Archive</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Join Our World</h3>
+                <form 
+                    action="https://formspree.io/f/xzzejano" 
+                    method="POST" 
+                    id="newsletter-form" 
+                    class="newsletter"
+                >
+                    <!-- Campo de email (sin label para mantener tu diseño) -->
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="ENTER YOUR EMAIL" 
+                        required
+                        style="width: 100%; padding: 12px 15px; background: transparent; border: 1px solid rgba(255, 255, 255, 0.2); color: white; margin-bottom: 15px; font-size: 13px;"
+                    >
+                    
+                    <!-- Campo oculto para el asunto del email -->
+                    <input 
+                        type="hidden" 
+                        name="_subject" 
+                        value="✝ NEW SOUL JOINED THE LOST SAINTS"
+                    >
+                    
+                    <!-- Campo anti-spam (oculto para usuarios) -->
+                    <input 
+                        type="text" 
+                        name="_gotcha" 
+                        style="display: none;"
+                    >
+                    
+                    <!-- Botón de submit con tu estilo -->
+                    <button 
+                        type="submit" 
+                        style="width: 100%; padding: 12px 15px; background: white; color: black; border: none; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s;"
+                    >
+                        SUBSCRIBE
+                    </button>
+                </form>
+                
+                <!-- Mensaje de confirmación (oculto inicialmente) -->
+                <div id="subscription-message" style="display: none; margin-top: 15px; color: white; font-size: 13px;"></div>
+                
+                <div class="social-links" style="margin-top: 30px;">
+                    <a href="#">INSTAGRAM</a>
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">TWITTER</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 LOST SAINTS. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Language switcher functionality
+        document.getElementById('language-switcher').addEventListener('change', function() {
+            if (this.value === 'es') {
+                window.location.href = 'index_es.html'; // You'll need to create a Spanish version
+            } else {
+                window.location.href = 'index.html'; // English version
+            }
+        });
+    </script>
+</body>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Saints®</title>
+    <link rel="icon" type="image/x-icon" href="/imagenes/logos/white.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="imagenes/logos/white.png" alt="Lost Saints" class="logo-img">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#">Lookbook</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="language-selector">
+                    <select id="language-switcher">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-split">
+            <div class="hero-image left-image" style="background-image: url('imagenes/otros/modelos1.png')"></div>
+            <div class="hero-image right-image" style="background-image: url('imagenes/otros/xhryz.png')"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="scroll-reveal">NEW DROP</h1>
+            <a href="#products" class="hero-btn scroll-reveal">View Collection</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="section-header">
+            <h2 class="section-title">Full Catalog</h2>
+        </div>
+        
+        <div class="product-grid">
+            <!-- Product 1 with 3D effect and variants -->
+            <div class="product-item scroll-reveal">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/over_black.png" alt="OVER TEE LS" class="main-product-image">
+                        <!-- Hover overlay effect -->
+                        <div class="image-overlay">
+                            <span class="view-text">View details</span>
+                        </div>
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/over_black.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/over_white.png"
+                            style="background-color: #fff"></div>
+                        <div class="color-option" data-image="imagenes/productos/over_cream.png"
+                            style="background-color: #fffdd0"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">T-Shirts</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>OVER TEE LS</h3>
+                    <p class="product-description">Premium long sleeve t-shirt with oversized cut</p>
+                    <p class="price">€29.99 <span class="old-price">€39.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 with 3D hover effect -->
+            <div class="product-item scroll-reveal">
+                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/hoddie_cream_f.png" alt="Oversized Hoodie - Front" class="main-product-image">
+                        <img src="imagenes/productos/hoddie_cream_b.png" alt="Oversized Hoodie - Back" class="secondary-product-image">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Hoodies</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>Oversized Hoodie</h3>
+                    <p class="product-description">Premium hoodie with kangaroo pocket</p>
+                    <p class="price">€54.99</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product-item scroll-reveal">
+                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/funda1_negra.png" alt="ESSENTIAL CASE - Minimalist iPhone Case" class="main-product-image">
+                        <!-- Hover overlay effect -->
+                        <div class="image-overlay">
+                            <span class="view-text">View details</span>
+                        </div>
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/funda1_negra.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/funda1_gris.png"
+                            style="background-color: #a1a1a0"></div>
+                        <div class="color-option" data-image="imagenes/productos/funda1_marron.png"
+                            style="background-color: #5e4235"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Cases</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>ESSENTIAL CASE</h3>
+                    <p class="product-description">Limited edition minimalist phone case.</p>
+                    <p class="price">€9.99 <span class="old-price">€14.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">iPhone X - 16 Pro Max</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">Limited</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/condon1.png" alt="NOIR PROTECTION - Exclusive Pack" class="main-product-image">
+                        <img src="imagenes/productos/condon2.png" alt="NOIR PROTECTION - Product detail" class="secondary-product-image">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Wellness Essentials</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>NOIR PROTECTION</h3>
+                    <p class="product-description">Exclusive LS condoms pack.</p>
+                    <p class="price">€11.99 <span class="old-price">€19.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">12 units - One size</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/hoddie_negra_f.png" alt="" class="main-product-image">
+                        <img src="imagenes/productos/hoddie_negra_b.png" alt="" class="secondary-product-image">
+                    </div>                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Hoodie</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>SNAP SAINTS JK</h3>
+                    <p class="product-description">Oversize hoodie with back embroidery.</p>
+                    <p class="price">€49.99</p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL, XXL</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item scroll-reveal hidden-product">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <div class="image-wrapper">
+                        <img src="imagenes/productos/gorra_black.png" alt="" class="main-product-image">
+                    </div>
+                    <div class="color-variants">
+                        <div class="color-option active" data-image="imagenes/productos/gorra_black.png"
+                            style="background-color: #000"></div>
+                        <div class="color-option" data-image="imagenes/productos/gorra_gris.png"
+                            style="background-color: #808080"></div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Headwear</span>
+                        <div class="product-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <h3>VOID CREST CAP</h3>
+                    <p class="product-description">Minimalist, stylish LS cap.</p>
+                    <p class="price">€14.99 <span class="old-price">€21.99</span></p>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <span class="cart-icon">🛒</span> Buy
+                        </button>
+                        <button class="wishlist">
+                            <span class="heart-icon">❤</span>
+                        </button>
+                    </div>
+                    <div class="size-info">
+                        <p class="available-sizes-text">One Size - Adjustable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-footer">
+            <button class="load-more">View more products</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <div class="about-text scroll-reveal">
+                <h2>Brand Philosophy</h2>
+                <p>Our brand is born from the search for essence in design. Eliminating the superfluous to keep only what's essential: pure forms, defined contrasts, and a palette reduced to black and white.</p>
+                <p>Each garment is conceived as a timeless piece, designed to transcend seasons and trends. We believe in fashion as a lasting expression rather than ephemeral consumption.</p>
+                <p>Minimalism is not just an aesthetic, it's a way to understand design and life.</p>
+            </div>
+            <div class="about-image scroll-reveal">
+                <img src="imagenes/otros/xhryz.png" alt="About the brand">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>The Brand</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Philosophy</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Collections</h3>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Limited Editions</a></li>
+                    <li><a href="#">Archive</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Join Our World</h3>
+                <form 
+                    action="https://formspree.io/f/xzzejano" 
+                    method="POST" 
+                    id="newsletter-form" 
+                    class="newsletter"
+                >
+                    <!-- Campo de email (sin label para mantener tu diseño) -->
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="ENTER YOUR EMAIL" 
+                        required
+                        style="width: 100%; padding: 12px 15px; background: transparent; border: 1px solid rgba(255, 255, 255, 0.2); color: white; margin-bottom: 15px; font-size: 13px;"
+                    >
+                    
+                    <!-- Campo oculto para el asunto del email -->
+                    <input 
+                        type="hidden" 
+                        name="_subject" 
+                        value="✝ NEW SOUL JOINED THE LOST SAINTS"
+                    >
+                    
+                    <!-- Campo anti-spam (oculto para usuarios) -->
+                    <input 
+                        type="text" 
+                        name="_gotcha" 
+                        style="display: none;"
+                    >
+                    
+                    <!-- Botón de submit con tu estilo -->
+                    <button 
+                        type="submit" 
+                        style="width: 100%; padding: 12px 15px; background: white; color: black; border: none; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s;"
+                    >
+                        SUBSCRIBE
+                    </button>
+                </form>
+                
+                <!-- Mensaje de confirmación (oculto inicialmente) -->
+                <div id="subscription-message" style="display: none; margin-top: 15px; color: white; font-size: 13px;"></div>
+                
+                <div class="social-links" style="margin-top: 30px;">
+                    <a href="#">INSTAGRAM</a>
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">TWITTER</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 LOST SAINTS. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Language switcher functionality
+        document.getElementById('language-switcher').addEventListener('change', function() {
+            if (this.value === 'es') {
+                window.location.href = 'index_es.html'; // You'll need to create a Spanish version
+            } else {
+                window.location.href = 'index.html'; // English version
+            }
+        });
+    </script>
+</body>
+
+>>>>>>> 84be9a7 (Los Saints)
+</html>
