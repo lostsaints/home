@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,11 +17,11 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#">Lookbook</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" data-i18n="home">Home</a></li>
+                <li><a href="#products" data-i18n="products">Products</a></li>
+                <li><a href="#" data-i18n="lookbook">Lookbook</a></li>
+                <li><a href="#" data-i18n="about">About</a></li>
+                <li><a href="#" data-i18n="contact">Contact</a></li>
                 <li class="language-selector">
                     <select id="language-switcher">
                         <option value="en">EN</option>
@@ -37,26 +38,26 @@
             <div class="hero-image right-image" style="background-image: url('imagenes/otros/xhryz.png')"></div>
         </div>
         <div class="hero-content">
-            <h1 class="scroll-reveal">NEW DROP</h1>
-            <a href="#products" class="hero-btn scroll-reveal">View Collection</a>
+            <h1 class="scroll-reveal" data-i18n="newDrop">NEW DROP</h1>
+            <a href="#products" class="hero-btn scroll-reveal" data-i18n="viewCollection">View Collection</a>
         </div>
     </section>
 
     <section id="products" class="products">
         <div class="section-header">
-            <h2 class="section-title">Full Catalog</h2>
+            <h2 class="section-title" data-i18n="fullCatalog">Full Catalog</h2>
         </div>
-        
+
         <div class="product-grid">
             <!-- Product 1 with 3D effect and variants -->
             <div class="product-item scroll-reveal">
-                <div class="product-badge">New</div>
+                <div class="product-badge" data-i18n="newBadge">New</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
                         <img src="imagenes/productos/over_black.png" alt="OVER TEE LS" class="main-product-image">
                         <!-- Hover overlay effect -->
                         <div class="image-overlay">
-                            <span class="view-text">View details</span>
+                            <span class="view-text" data-i18n="viewDetails">View details</span>
                         </div>
                     </div>
                     <div class="color-variants">
@@ -70,7 +71,7 @@
                 </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">T-Shirts</span>
+                        <span class="product-category" data-i18n="tshirtsCategory">T-Shirts</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -80,33 +81,36 @@
                         </div>
                     </div>
                     <h3>OVER TEE LS</h3>
-                    <p class="product-description">Premium long sleeve t-shirt with oversized cut</p>
+                    <p class="product-description" data-i18n="overTeeDesc">Premium long sleeve t-shirt with oversized
+                        cut</p>
                     <p class="price">€29.99 <span class="old-price">€39.99</span></p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
                         </button>
                     </div>
                     <div class="size-info">
-                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                        <p class="available-sizes-text" data-i18n="sizes">Sizes: XS, S, M, L, XL</p>
                     </div>
                 </div>
             </div>
             <!-- Product 2 with 3D hover effect -->
             <div class="product-item scroll-reveal">
-                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-badge bestseller" data-i18n="bestSeller">Best Seller</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
-                        <img src="imagenes/productos/hoddie_cream_f.png" alt="Oversized Hoodie - Front" class="main-product-image">
-                        <img src="imagenes/productos/hoddie_cream_b.png" alt="Oversized Hoodie - Back" class="secondary-product-image">
+                        <img src="imagenes/productos/hoddie_cream_f.png" alt="Oversized Hoodie - Front"
+                            class="main-product-image">
+                        <img src="imagenes/productos/hoddie_cream_b.png" alt="Oversized Hoodie - Back"
+                            class="secondary-product-image">
                     </div>
                 </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">Hoodies</span>
+                        <span class="product-category" data-i18n="hoodiesCategory">Hoodies</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -116,30 +120,31 @@
                         </div>
                     </div>
                     <h3>Oversized Hoodie</h3>
-                    <p class="product-description">Premium hoodie with kangaroo pocket</p>
+                    <p class="product-description" data-i18n="hoodieDesc">Premium hoodie with kangaroo pocket</p>
                     <p class="price">€54.99</p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
                         </button>
                     </div>
                     <div class="size-info">
-                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL</p>
+                        <p class="available-sizes-text" data-i18n="sizes">Sizes: XS, S, M, L, XL</p>
                     </div>
                 </div>
             </div>
-    
+
             <div class="product-item scroll-reveal">
-                <div class="product-badge bestseller">Best Seller</div>
+                <div class="product-badge bestseller" data-i18n="bestSeller">Best Seller</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
-                        <img src="imagenes/productos/funda1_negra.png" alt="ESSENTIAL CASE - Minimalist iPhone Case" class="main-product-image">
+                        <img src="imagenes/productos/funda1_negra.png" alt="ESSENTIAL CASE - Minimalist iPhone Case"
+                            class="main-product-image">
                         <!-- Hover overlay effect -->
                         <div class="image-overlay">
-                            <span class="view-text">View details</span>
+                            <span class="view-text" data-i18n="viewDetails">View details</span>
                         </div>
                     </div>
                     <div class="color-variants">
@@ -153,7 +158,7 @@
                 </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">Cases</span>
+                        <span class="product-category" data-i18n="casesCategory">Cases</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -163,11 +168,11 @@
                         </div>
                     </div>
                     <h3>ESSENTIAL CASE</h3>
-                    <p class="product-description">Limited edition minimalist phone case.</p>
+                    <p class="product-description" data-i18n="caseDesc">Limited edition minimalist phone case.</p>
                     <p class="price">€9.99 <span class="old-price">€14.99</span></p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
@@ -178,18 +183,20 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="product-item scroll-reveal hidden-product">
-                <div class="product-badge">Limited</div>
+                <div class="product-badge" data-i18n="limitedBadge">Limited</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
-                        <img src="imagenes/productos/condon1.png" alt="NOIR PROTECTION - Exclusive Pack" class="main-product-image">
-                        <img src="imagenes/productos/condon2.png" alt="NOIR PROTECTION - Product detail" class="secondary-product-image">
+                        <img src="imagenes/productos/condon1.png" alt="NOIR PROTECTION - Exclusive Pack"
+                            class="main-product-image">
+                        <img src="imagenes/productos/condon2.png" alt="NOIR PROTECTION - Product detail"
+                            class="secondary-product-image">
                     </div>
                 </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">Wellness Essentials</span>
+                        <span class="product-category" data-i18n="wellnessCategory">Wellness Essentials</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -199,11 +206,11 @@
                         </div>
                     </div>
                     <h3>NOIR PROTECTION</h3>
-                    <p class="product-description">Exclusive LS condoms pack.</p>
+                    <p class="product-description" data-i18n="condomDesc">Exclusive LS condoms pack.</p>
                     <p class="price">€11.99 <span class="old-price">€19.99</span></p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
@@ -214,17 +221,18 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="product-item scroll-reveal hidden-product">
-                <div class="product-badge">New</div>
+                <div class="product-badge" data-i18n="newBadge">New</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
                         <img src="imagenes/productos/hoddie_negra_f.png" alt="" class="main-product-image">
                         <img src="imagenes/productos/hoddie_negra_b.png" alt="" class="secondary-product-image">
-                    </div>                </div>
+                    </div>
+                </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">Hoodie</span>
+                        <span class="product-category" data-i18n="hoodieCategory">Hoodie</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -234,24 +242,24 @@
                         </div>
                     </div>
                     <h3>SNAP SAINTS JK</h3>
-                    <p class="product-description">Oversize hoodie with back embroidery.</p>
+                    <p class="product-description" data-i18n="snapSaintsDesc">Oversize hoodie with back embroidery.</p>
                     <p class="price">€49.99</p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
                         </button>
                     </div>
                     <div class="size-info">
-                        <p class="available-sizes-text">Sizes: XS, S, M, L, XL, XXL</p>
+                        <p class="available-sizes-text" data-i18n="sizesExtended">Sizes: XS, S, M, L, XL, XXL</p>
                     </div>
                 </div>
             </div>
-            
+
             <div class="product-item scroll-reveal hidden-product">
-                <div class="product-badge">New</div>
+                <div class="product-badge" data-i18n="newBadge">New</div>
                 <div class="product-image-container">
                     <div class="image-wrapper">
                         <img src="imagenes/productos/gorra_black.png" alt="" class="main-product-image">
@@ -265,7 +273,7 @@
                 </div>
                 <div class="product-info">
                     <div class="product-meta">
-                        <span class="product-category">Headwear</span>
+                        <span class="product-category" data-i18n="headwearCategory">Headwear</span>
                         <div class="product-rating">
                             <span class="star">★</span>
                             <span class="star">★</span>
@@ -275,35 +283,40 @@
                         </div>
                     </div>
                     <h3>VOID CREST CAP</h3>
-                    <p class="product-description">Minimalist, stylish LS cap.</p>
+                    <p class="product-description" data-i18n="capDesc">Minimalist, stylish LS cap.</p>
                     <p class="price">€14.99 <span class="old-price">€21.99</span></p>
                     <div class="product-actions">
                         <button class="add-to-cart">
-                            <span class="cart-icon">🛒</span> Buy
+                            <span class="cart-icon">🛒</span> <span data-i18n="buy">Buy</span>
                         </button>
                         <button class="wishlist">
                             <span class="heart-icon">❤</span>
                         </button>
                     </div>
                     <div class="size-info">
-                        <p class="available-sizes-text">One Size - Adjustable</p>
+                        <p class="available-sizes-text" data-i18n="oneSize">One Size - Adjustable</p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <div class="section-footer">
-            <button class="load-more">View more products</button>
+            <button class="load-more" data-i18n="viewMore">View more products</button>
         </div>
     </section>
 
     <section class="about">
         <div class="about-content">
             <div class="about-text scroll-reveal">
-                <h2>Brand Philosophy</h2>
-                <p>Our brand is born from the search for essence in design. Eliminating the superfluous to keep only what's essential: pure forms, defined contrasts, and a palette reduced to black and white.</p>
-                <p>Each garment is conceived as a timeless piece, designed to transcend seasons and trends. We believe in fashion as a lasting expression rather than ephemeral consumption.</p>
-                <p>Minimalism is not just an aesthetic, it's a way to understand design and life.</p>
+                <h2 data-i18n="brandPhilosophy">Brand Philosophy</h2>
+                <p data-i18n="philosophyText1">Our brand is born from the search for essence in design. Eliminating the
+                    superfluous to keep only what's essential: pure forms, defined contrasts, and a palette reduced to
+                    black and white.</p>
+                <p data-i18n="philosophyText2">Each garment is conceived as a timeless piece, designed to transcend
+                    seasons and trends. We believe in fashion as a lasting expression rather than ephemeral consumption.
+                </p>
+                <p data-i18n="philosophyText3">Minimalism is not just an aesthetic, it's a way to understand design and
+                    life.</p>
             </div>
             <div class="about-image scroll-reveal">
                 <img src="imagenes/otros/xhryz.png" alt="About the brand">
@@ -314,42 +327,42 @@
     <footer>
         <div class="footer-content">
             <div class="footer-column">
-                <h3>The Brand</h3>
+                <h3 data-i18n="theBrand">The Brand</h3>
                 <ul>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Philosophy</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Careers</a></li>
+                    <li><a href="#" data-i18n="ourStory">Our Story</a></li>
+                    <li><a href="#" data-i18n="philosophy">Philosophy</a></li>
+                    <li><a href="#" data-i18n="sustainability">Sustainability</a></li>
+                    <li><a href="#" data-i18n="careers">Careers</a></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Collections</h3>
+                <h3 data-i18n="collections">Collections</h3>
                 <ul>
-                    <li><a href="#">New Arrivals</a></li>
-                    <li><a href="#">Best Sellers</a></li>
-                    <li><a href="#">Limited Editions</a></li>
-                    <li><a href="#">Archive</a></li>
+                    <li><a href="#" data-i18n="newArrivals">New Arrivals</a></li>
+                    <li><a href="#" data-i18n="bestSellers">Best Sellers</a></li>
+                    <li><a href="#" data-i18n="limitedEditions">Limited Editions</a></li>
+                    <li><a href="#" data-i18n="archive">Archive</a></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Assistance</h3>
+                <h3 data-i18n="assistance">Assistance</h3>
                 <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Shipping Info</a></li>
-                    <li><a href="#">Returns & Exchanges</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#" data-i18n="contactUs">Contact Us</a></li>
+                    <li><a href="#" data-i18n="shippingInfo">Shipping Info</a></li>
+                    <li><a href="#" data-i18n="returns">Returns & Exchanges</a></li>
+                    <li><a href="#" data-i18n="faq">FAQ</a></li>
                 </ul>
             </div>
+            <!-- Añade esto en el footer donde está el formulario de suscripción -->
             <div class="footer-column">
-                <h3>Join Our World</h3>
-                <div class="newsletter">
-                    <input type="email" placeholder="ENTER YOUR EMAIL">
-                    <button>SUBSCRIBE</button>
-                </div>
+                <h3 data-i18n="joinOurWorld">Join Our World</h3>
+                <form id="newsletter-form" class="newsletter">
+                    <input type="email" name="email" required placeholder="ENTER YOUR EMAIL" data-i18n-placeholder="emailPlaceholder">
+                    <button type="submit" data-i18n="subscribe">SUBSCRIBE</button>
+                </form>
+                <div id="subscription-message" style="display:none;"></div>
                 <div class="social-links" style="margin-top: 30px;">
-                    <a href="#">INSTAGRAM</a>
-                    <a href="#">FACEBOOK</a>
-                    <a href="#">TWITTER</a>
+                    <a target="_blank" href="https://www.instagram.com/lostsaintswear/">INSTAGRAM</a>
                 </div>
             </div>
         </div>
@@ -360,14 +373,230 @@
 
     <script src="script.js"></script>
     <script>
-        // Language switcher functionality
-        document.getElementById('language-switcher').addEventListener('change', function() {
-            if (this.value === 'es') {
-                window.location.href = 'index_es.html'; // You'll need to create a Spanish version
-            } else {
-                window.location.href = 'index.html'; // English version
+        // Language translations
+        const translations = {
+            en: {
+                home: "Home",
+                products: "Products",
+                lookbook: "Lookbook",
+                about: "About",
+                contact: "Contact",
+                newDrop: "NEW DROP",
+                viewCollection: "View Collection",
+                fullCatalog: "Full Catalog",
+                newBadge: "New",
+                bestSeller: "Best Seller",
+                limitedBadge: "Limited",
+                viewDetails: "View details",
+                tshirtsCategory: "T-Shirts",
+                hoodiesCategory: "Hoodies",
+                casesCategory: "Cases",
+                wellnessCategory: "Wellness Essentials",
+                hoodieCategory: "Hoodie",
+                headwearCategory: "Headwear",
+                overTeeDesc: "Premium long sleeve t-shirt with oversized cut",
+                hoodieDesc: "Premium hoodie with kangaroo pocket",
+                caseDesc: "Limited edition minimalist phone case.",
+                condomDesc: "Exclusive LS condoms pack.",
+                snapSaintsDesc: "Oversize hoodie with back embroidery.",
+                capDesc: "Minimalist, stylish LS cap.",
+                buy: "Buy",
+                sizes: "Sizes: XS, S, M, L, XL",
+                sizesExtended: "Sizes: XS, S, M, L, XL, XXL",
+                oneSize: "One Size - Adjustable",
+                viewMore: "View more products",
+                brandPhilosophy: "Brand Philosophy",
+                philosophyText1: "Our brand is born from the search for essence in design. Eliminating the superfluous to keep only what's essential: pure forms, defined contrasts, and a palette reduced to black and white.",
+                philosophyText2: "Each garment is conceived as a timeless piece, designed to transcend seasons and trends. We believe in fashion as a lasting expression rather than ephemeral consumption.",
+                philosophyText3: "Minimalism is not just an aesthetic, it's a way to understand design and life.",
+                theBrand: "The Brand",
+                ourStory: "Our Story",
+                philosophy: "Philosophy",
+                sustainability: "Sustainability",
+                careers: "Careers",
+                collections: "Collections",
+                newArrivals: "New Arrivals",
+                bestSellers: "Best Sellers",
+                limitedEditions: "Limited Editions",
+                archive: "Archive",
+                assistance: "Assistance",
+                contactUs: "Contact Us",
+                shippingInfo: "Shipping Info",
+                returns: "Returns & Exchanges",
+                faq: "FAQ",
+                joinOurWorld: "Join Our World",
+                emailPlaceholder: "ENTER YOUR EMAIL",
+                subscribe: "SUBSCRIBE"
+            },
+            es: {
+                home: "Inicio",
+                products: "Productos",
+                lookbook: "Lookbook",
+                about: "Nosotros",
+                contact: "Contacto",
+                newDrop: "NUEVO LANZAMIENTO",
+                viewCollection: "Ver Colección",
+                fullCatalog: "Catálogo Completo",
+                newBadge: "Nuevo",
+                bestSeller: "Más Vendido",
+                limitedBadge: "Edición Limitada",
+                viewDetails: "Ver detalles",
+                tshirtsCategory: "Camisetas",
+                hoodiesCategory: "Sudaderas",
+                casesCategory: "Fundas",
+                wellnessCategory: "Bienestar",
+                hoodieCategory: "Sudadera",
+                headwearCategory: "Accesorios",
+                overTeeDesc: "Camiseta premium de manga larga con corte oversized",
+                hoodieDesc: "Sudadera premium con bolsillo canguro",
+                caseDesc: "Fundas minimalistas de edición limitada.",
+                condomDesc: "Pack exclusivo de preservativos LS.",
+                snapSaintsDesc: "Sudadera oversize con bordado en la espalda.",
+                capDesc: "Gorra LS minimalista y elegante.",
+                buy: "Comprar",
+                sizes: "Tallas: XS, S, M, L, XL",
+                sizesExtended: "Tallas: XS, S, M, L, XL, XXL",
+                oneSize: "Talla Única - Ajustable",
+                viewMore: "Ver más productos",
+                brandPhilosophy: "Filosofía de Marca",
+                philosophyText1: "Nuestra marca nace de la búsqueda de la esencia en el diseño. Eliminando lo superfluo para conservar solo lo esencial: formas puras, contrastes definidos y una paleta reducida al blanco y negro.",
+                philosophyText2: "Cada prenda está concebida como una pieza atemporal, diseñada para trascender temporadas y tendencias. Creemos en la moda como una expresión duradera más que como consumo efímero.",
+                philosophyText3: "El minimalismo no es solo una estética, es una forma de entender el diseño y la vida.",
+                theBrand: "La Marca",
+                ourStory: "Nuestra Historia",
+                philosophy: "Filosofía",
+                sustainability: "Sostenibilidad",
+                careers: "Trabaja con Nosotros",
+                collections: "Colecciones",
+                newArrivals: "Novedades",
+                bestSellers: "Más Vendidos",
+                limitedEditions: "Ediciones Limitadas",
+                archive: "Archivo",
+                assistance: "Asistencia",
+                contactUs: "Contáctanos",
+                shippingInfo: "Información de Envío",
+                returns: "Devoluciones",
+                faq: "Preguntas Frecuentes",
+                joinOurWorld: "Únete a Nuestro Mundo",
+                emailPlaceholder: "INTRODUCE TU EMAIL",
+                subscribe: "SUSCRIBIRSE"
             }
+        };
+
+        // Language switcher con animación minimalista
+        document.getElementById('language-switcher').addEventListener('change', function () {
+            const lang = this.value;
+            const translatableElements = document.querySelectorAll('[data-i18n], [data-i18n-placeholder]');
+
+            // 1. Fade out elementos actuales
+            translatableElements.forEach(el => {
+                el.classList.add('translate-element', 'translate-out');
+            });
+
+            // 2. Esperar a que complete el fade out antes de traducir
+            setTimeout(() => {
+                document.documentElement.lang = lang;
+                translatePage(lang);
+
+                // 3. Fade in con nuevo idioma
+                translatableElements.forEach(el => {
+                    el.classList.remove('translate-out');
+                    el.classList.add('translate-in');
+                });
+
+                // 4. Limpiar clases después de la animación
+                setTimeout(() => {
+                    translatableElements.forEach(el => {
+                        el.classList.remove('translate-element', 'translate-in');
+                    });
+                }, 400);
+            }, 400);
         });
+
+
+        
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+// Inicializa EmailJS con tu User ID
+emailjs.init('IsWt2-loid7fFdkry');
+
+// Newsletter form handling con EmailJS
+document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const form = e.target;
+    const messageElement = document.getElementById('subscription-message');
+    const currentLang = document.documentElement.lang;
+    
+    // Envía el formulario usando EmailJS
+    emailjs.sendForm('service_6uu1s9b', 'template_flo4o3o', form)
+        .then(() => {
+            // Mensaje de éxito
+            const successMessage = currentLang === 'es' ? 
+                '¡Gracias por suscribirte! Pronto recibirás nuestras novedades.' : 
+                'Thank you for subscribing! You\'ll hear from us soon.';
+            
+            messageElement.textContent = successMessage;
+            messageElement.style.display = 'block';
+            messageElement.style.color = '#fff';
+            form.reset();
+            
+            // Ocultar mensaje después de 5 segundos
+            setTimeout(() => {
+                messageElement.style.display = 'none';
+            }, 5000);
+        }, (error) => {
+            console.error('Error:', error);
+            const errorMessage = currentLang === 'es' ? 
+                'Hubo un error. Por favor, inténtalo de nuevo más tarde.' : 
+                'There was an error. Please try again later.';
+            
+            messageElement.textContent = errorMessage;
+            messageElement.style.display = 'block';
+            messageElement.style.color = '#ff6b6b';
+        });
+});
+    
+   // Función de traducción COMPLETA (versión fusionada)
+function translatePage(lang) {
+    // Traducir elementos con data-i18n
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
+    });
+
+    // Traducir placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            element.placeholder = translations[lang][key];
+        }
+    });
+
+    // Actualizar el mensaje de suscripción si está visible
+    const messageElement = document.getElementById('subscription-message');
+    if (messageElement && messageElement.style.display !== 'none') {
+        if (lang === 'es') {
+            if (messageElement.textContent.includes('Thank you')) {
+                messageElement.textContent = '¡Gracias por suscribirte! Revisa tu correo para confirmar.';
+            } else if (messageElement.textContent.includes('There was')) {
+                messageElement.textContent = 'Hubo un error. Por favor, inténtalo de nuevo más tarde.';
+            }
+        } else {
+            if (messageElement.textContent.includes('Gracias')) {
+                messageElement.textContent = 'Thank you for subscribing! Please check your email to confirm.';
+            } else if (messageElement.textContent.includes('Hubo')) {
+                messageElement.textContent = 'There was an error. Please try again later.';
+            }
+        }
+    }
+}
     </script>
 </body>
 
