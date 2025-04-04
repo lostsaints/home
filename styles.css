@@ -1585,3 +1585,37 @@ footer::after {
 .product-item:nth-child(6) .color-option.active {
     animation: colorClick 0.3s ease;
 }
+
+
+/* Animación minimalista profesional */
+.translate-element {
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.translate-out {
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+.translate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilos para el mensaje de suscripción */
+#subscription-message {
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 768px) {
+    #subscription-message {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
