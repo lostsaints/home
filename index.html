@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lost Saints®</title>
+  <link rel="icon" type="image/x-icon" href="../imagenes/logos/white.png">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="particles" id="particles-js"></div>
+  <div class="hero-split">
+    <div class="hero-image left-image"></div>
+    <div class="hero-image right-image"></div>
+  </div>
+  
+  <section class="countdown-section">
+    <div class="countdown-container">
+      <h1 class="drop-title">NEW DROP IS COMMING</h1>
+      <div class="countdown-wrapper">
+        <div id="countdown">
+          <div class="countdown-unit">
+            <div class="countdown-value"><span id="days">00</span></div>
+            <div class="countdown-label">DÍAS</div>
+          </div>
+          <div class="countdown-separator">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-value"><span id="hours">00</span></div>
+            <div class="countdown-label">HORAS</div>
+          </div>
+          <div class="countdown-separator">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-value"><span id="minutes">00</span></div>
+            <div class="countdown-label">MIN</div>
+          </div>
+          <div class="countdown-separator">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-value"><span id="seconds">00</span></div>
+            <div class="countdown-label">SEG</div>
+          </div>
+        </div>
+      </div>
+      <div class="subscribe-section">
+        <form id="notify-form">
+          <div class="input-group">
+            <i class="fas fa-envelope icon"></i>
+            <input type="email" placeholder="TU EMAIL" required />
+          </div>
+          <button type="submit">
+            <span>AVÍSAME</span>
+            <i class="fas fa-arrow-right arrow"></i>
+          </button>
+        </form>
+        <div class="confirmation-msg" id="msg"></div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/lostsaintswear/" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          
+      </div>
+    </div>
+    
+  </section>
+  <script src="particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
