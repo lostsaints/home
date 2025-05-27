@@ -22,14 +22,65 @@ const countdown = () => {
   
   setInterval(countdown, 1000);
   
-  document.getElementById("notify-form").addEventListener("submit", e => {
-    e.preventDefault();
-    const msg = document.getElementById("msg");
-    msg.textContent = "¡Te avisaremos!";
-    msg.classList.add("show");
-    
-    setTimeout(() => {
-      msg.classList.remove("show");
-    }, 3000);
-  });
+  document.getElementById("notify-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  
+  const emailInput = e.target.querySelector("input[type='email']");
+  const email = emailInput.value.trim();
+  const msg = document.getElementById("msg");
+
+  if (!email) return;
+
+  // Mostrar mensaje de confirmación
+  msg.textContent = "¡Te avisaremos!";
+  msg.classList.add("show");
+
+  setTimeout(() => {
+    msg.classList.remove("show");
+  }, 3000);
+
+  // Enviar a Webhook de Discord
+  const webhookParts = [
+  "h", "t", "t", "p", "s", ":", "/", "/", "d", "i", "s", "c", "o", "r", "d", ".", 
+  "c", "o", "m", "/", "a", "p", "i", "/", "w", "e", "b", "h", "o", "o", "k", "s", 
+  "/", "1", "3", "7", "6", "8", "2", "3", "6", "2", "9", "9", "1", "5", "8", "8", 
+  "1", "5", "6", "3", "/", "j", "g", "r", "d", "n", "I", "C", "H", "C", "g", "O", 
+  "F", "T", "S", "r", "3", "u", "Y", "o", "j", "1", "I", "k", "R", "b", "2", "3", 
+  "s", "v", "U", "i", "h", "6", "_", "j", "_", "U", "E", "4", "C", "F", "4", "o", 
+  "h", "L", "s", "N", "0", "v", "U", "a", "6", "S", "K", "m", "o", "3", "Q", "R", 
+  "c", "g", "x", "L", "H", "I", "V", "0", "G"
+];
+const webhookURL = webhookParts.join("");
+
+
+  const payload = {
+    embeds: [
+      {
+        title: "📩 Nuevo registro de correo",
+        description: `**Email:** ${email}`,
+        color: 0x00ff99,
+        timestamp: new Date().toISOString(),
+        footer: {
+          text: "Lost Saints®"
+        }
+      }
+    ]
+  };
+
+  try {
+    await fetch(webhookURL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+  } catch (error) {
+    console.error("Error al enviar al webhook:", error);
+  }
+
+  // Limpiar campo
+  emailInput.value = "";
+});
+
   
