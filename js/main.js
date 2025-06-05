@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'gloss-pants-summer': {
             title: 'GLOSS PANTS',
             tag: 'BUSY SUMMER',
-            price: '€19.99',
+            price: '€29.99',
             description: "Pants so fresh they reject basic vibes. For leg day skippers who still wanna flex. Pocket game stronger than your WhatsApp excuses.",
             material: '100% Cotton (breathable like your lies)',
             care: 'Wash cold (like your heart). Tumble dry low (like your battery at 1%).',
