@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function() {
             material: '100% Cotton (breathable like your lies)',
             care: 'Wash cold (like your heart). Tumble dry low (like your battery at 1%).',
             colors: ['Blackout', 'Grandma’s Couch Gray'],
-            sizes: ['34', '36', '38', '40', '42', '44', '46'],
+            sizes: ['38', '40', '42', '44', '46'],
             images: [
                 'imagenes/productos/busy_summer_drop/pants_shorts_lost/gray.png',
                 'imagenes/productos/busy_summer_drop/pants_shorts_lost/black.png'
